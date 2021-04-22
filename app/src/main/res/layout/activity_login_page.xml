@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login_page">
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="411dp"
+        android:layout_height="102dp"
+        android:background="@drawable/ic_wave"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="100dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Login"
+        android:textColor="@color/pink"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/btndesign"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:hint="Username"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/userpwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/btndesign"
+            android:drawableLeft="@drawable/ic_baseline_security_24"
+            android:hint="password"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/log"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/buttondesign"
+            android:text="Login"
+            android:onClick="btnlogin"
+            android:textColor="#fff" />
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

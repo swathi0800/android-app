@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Andriod_app</string>
+    <string name="country_prompt">Choose a Part No</string>
+
+    <string-array name="country_arrays">
+        <item>ABC</item>
+        <item>BCD</item>
+        <item>CAD</item>
+        <item>EFG</item>
+        <item>HJI</item>
+        <item>MNO</item>
+        <item>JIK</item>
+        <item>JIL</item>
+    </string-array>
+    <string name="category_prompt">Choose a Part No</string>
+
+    <string-array name="category_arrays">
+        <item>Category 1</item>
+        <item>Category 2</item>
+        <item>Category 3</item>
+        <item>Category 4</item>
+        <item>Category 5</item>
+
+    </string-array>
+    <string name="month_prompt">Choose a Part No</string>
+
+    <string-array name="month_arrays">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+
+
+    </string-array>
+</resources>
